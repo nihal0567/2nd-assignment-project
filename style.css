@@ -8,6 +8,15 @@
 *{
 
 }
+/* shared styles */
+.colorgrid{
+    color: #E95A08;
+}
+.p-color{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 
 
@@ -40,10 +49,40 @@ a{
     font-weight: 700;
     padding: 13px 0;
 }
-.colorgrid{
-    color: #E95A08;
+
+
+/*  */
+.our-plants{
+    text-align: center;
 }
-.banner-heading p{
+.our-plants h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.name-title{
     font-size: 22px;
-    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 30px;
+}
+.card button{
+    padding: 26px 90px;
+    border: none;
+    background-color: #E95A08;
+    color: #ffffff;
+}
+.state-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 49px;
+}
+.card2{
+    margin-top: 30px;
 }
