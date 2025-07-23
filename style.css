@@ -1,3 +1,49 @@
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 *{
-    
+
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+a{
+    text-decoration: none;
+    color: #252432;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 150px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    padding: 13px 0;
+}
+.colorgrid{
+    color: #E95A08;
+}
+.banner-heading p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
 }
