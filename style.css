@@ -16,6 +16,10 @@
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
 }
+.heading-title{
+    font-size: 50px;
+    font-weight: bold;
+}
 
 
 
@@ -60,8 +64,6 @@ main{
     text-align: center;
 }
 .our-plants h2{
-    font-size: 50px;
-    font-weight: bold;
     padding-bottom: 16px;
 }
 .name-title{
@@ -114,3 +116,12 @@ main{
     left: 386px;
     top: -124px;
 }
+
+/*    */
+.deal-heading{
+    margin-top: 135px;
+    text-align: center;
+    padding-bottom: 16px;
+    margin-bottom: 120px;
+}
+
