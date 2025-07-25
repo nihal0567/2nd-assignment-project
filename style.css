@@ -6,7 +6,9 @@
 }
 
 *{
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* shared styles */
 .colorgrid{
@@ -98,10 +100,6 @@ main{
     margin: 49px 150px;
     gap: 20px;
 }
-
-/* .card2{
-    margin-top: 30px;
-} */
 
 /*             */
 
@@ -295,10 +293,6 @@ main{
         height: 68px;
         font-size: 14px;
     }
-    .state-card-1{
-
-    }
-    
 
 
 
