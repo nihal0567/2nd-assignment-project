@@ -257,15 +257,14 @@ main{
     }
     nav{
         justify-content: space-between;
-        margin: 13px 16px;
+        margin: 13px;
         align-items: center;
     }
     .banner-content{
         flex-direction: column-reverse;
     }
     .banner-content img{
-        width: 393px;
-        height: 245px;
+        
         flex-direction: column;
     }
     .banner-heading{
@@ -293,8 +292,41 @@ main{
         height: 68px;
         font-size: 14px;
     }
-
-
+    .state-card-1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 0;
+        gap: 14px;
+    }
+    .state-card-2{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        max-width: 0;
+    }
+    .badge{
+        display: none;
+    }
+    .flower-plants-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .image-content img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .deal-heading{
+        text-align: start;
+    }
+    .flower-content{
+        gap: 0;
+    }
+    .left-img{
+        flex-direction: column;
+    }
+    .flower-overlay img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
 
 
 
